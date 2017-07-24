@@ -55,10 +55,54 @@ namespace Assignment4_AbstractPlanets
             }
             set
             {
-
+                this._moonCount = value;
             }
         }
 
+        public string Name
+        {
+            get
+            {
+                return this._name;
+            }
+        }
+
+        public double OrbitalPeriod
+        {
+            get
+            {
+                return this._orbitalPeriod;
+            }
+            set
+            {
+                this._orbitalPeriod = value;
+            }
+        }
+
+        public int RingCount
+        {
+            get
+            {
+                return this._ringCount;
+            }
+            set
+            {
+                this._ringCount = value;
+            }
+        }
+
+        public double RotationPeriod
+        {
+            get
+            {
+                return this._rotationPeriod;
+            }
+
+            set
+            {
+                this._rotationPeriod = value;
+            }
+        }
         
 
 
