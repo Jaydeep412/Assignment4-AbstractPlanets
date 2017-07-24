@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 * Name: Jaydeep Lakhwani
 * Date: July 24,2017
 * Description: This is the Abstract Planet Class
-* Version: 0.2 - Added Constructor method and overriden ToString method.
+* Version: 0.3 - Updated comments.
 */
 
 namespace Assignment4_AbstractPlanets
@@ -103,15 +103,17 @@ namespace Assignment4_AbstractPlanets
                 this._rotationPeriod = value;
             }
         }
-        
+
         /// <summary>
- 		/// This is the main constructor for the Planet class.
- 		/// It takes three parameter - name(string) - diameter(double) - mass(double)
- 		/// </summary>
- 		/// <param name="name"></param>
- 
- 		//CONSTRUCTOR ----------------------------------------------------------------
- 		public Planet(string name,double diameter, double mass)
+        /// This is the main constructor for the Planet class.
+        /// It takes three parameter - name(string) - diameter(double) - mass(double)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+
+        //CONSTRUCTOR ----------------------------------------------------------------
+        public Planet(string name,double diameter, double mass)
  		{
             this._name = name;
             this._diameter= diameter;
@@ -124,7 +126,7 @@ namespace Assignment4_AbstractPlanets
         /// Overridden the built-in ToString method
         /// </summary>
         /// <returns>
-        /// string 
+        /// string
         /// </returns>
         public override string ToString()
         {
