@@ -18,6 +18,8 @@ namespace Assignment4_AbstractPlanets
         // PRIVATE INSTANCE VARIABLES (FIELDS)
   		private string _type;
 
+        
+        //CONSTRUCTOR
 
         /// <summary>
         /// This is the main constructor for the GiantPlanet class.
