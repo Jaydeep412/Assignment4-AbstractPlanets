@@ -8,15 +8,19 @@ using System.Threading.Tasks;
 * Name: Jaydeep Lakhwani
 * Date: July 24,2017
 * Description: This is the TerrestrialPlanet Class that extends the Planet abstract class.
-* Version: 0.2 - Added fields and propertirs, Constructor, HasMoons and Habitable method.
+* and Implements IHasMoons and IHabitable interfaces.
+* Version: 0.3 -Implemented IHasMoons adn IHabitable interfaces.
 */
 
 namespace Assignment4_AbstractPlanets
 {
-    class TerrestrialPlanet : Planet
+    class TerrestrialPlanet : Planet , IHasMoons,IHabitable
     {
         // PRIVATE INSTANCE VARIABLES (FIELDS)
         private bool _oxygen;
+      
+        //PUBLIC PROPERTIES
+   
 
 
         //CONSTRUCTOR

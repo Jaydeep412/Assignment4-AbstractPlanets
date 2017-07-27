@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 /* Name: Jaydeep Lakhwani
 * Date: July 24,2017
 * Description: This is the IHasMoons interface.
-* Version: 0.1 - Created IHasMoons interface.
+* Version: 0.2 - Added HasMoons method.
 */
 
 namespace Assignment4_AbstractPlanets
 {
-    interface IHasMoons
+    interface IHasMoons   
     {
-        //PUBLIC PROPERTIES
-        bool HasMoons { get; set; }
+        //Method
+        bool HasMoons();
     }
 }

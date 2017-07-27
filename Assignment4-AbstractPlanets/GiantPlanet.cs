@@ -8,17 +8,21 @@ using System.Threading.Tasks;
 * Name: Jaydeep Lakhwani
 * Date: July 24,2017
 * Description: This is the GiantPlanet Class that extends the Planet abstract class.
-* Version: 0.2 - Added Fields, Constructor and HasMoons and HasRings method.
+* implements the IHasMoons and IHasRings interfaces.
+* Version: 0.4 -Implemented IHasMoons and IHasRings interfaces
 */
 
 namespace Assignment4_AbstractPlanets
 {
-    class GiantPlanet : Planet
+    class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         // PRIVATE INSTANCE VARIABLES (FIELDS)
   		private string _type;
-
         
+        //PUBLIC PROPERTIES
+       
+
+
         //CONSTRUCTOR
 
         /// <summary>
@@ -35,10 +39,13 @@ namespace Assignment4_AbstractPlanets
             this._type = type;
         }
 
+     
+
+
         //PUBLIC METHODS
         public bool HasMoons()
         {
-            if(MoonCount >0)
+            if (MoonCount > 0)
             {
                 return true;
             }
