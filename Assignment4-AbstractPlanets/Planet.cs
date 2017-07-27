@@ -132,7 +132,7 @@ namespace Assignment4_AbstractPlanets
         {
             string outputString = "";
 
-            outputString = "Name" + Name +"\n" + "Diameter" + Diameter + "\n" + "Mass" + Mass + "\n";
+            outputString = "Name:" + Name +"\n" + "Diameter:" + Diameter + "\n" + "Mass:" + Mass + "\n";
 
             return outputString;
 
