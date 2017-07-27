@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 /* Name: Jaydeep Lakhwani
 * Date: July 27,2017
-* Description: This is the IHasRings interface.
-* Version: 0.1 - Created IHasRings interface.
+* Description: This is the IHabitable interface.
+* Version: 0.1 - Created IHabitable interface.
 */
+
+
 namespace Assignment4_AbstractPlanets
 {
-    interface IHasRings
+    interface IHabitable
     {
         //PUBLIC PROPERTIES
-        bool HasRings { get; set; }
+        bool Habitable { get; set; }
     }
 }
