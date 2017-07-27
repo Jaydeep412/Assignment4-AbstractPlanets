@@ -14,6 +14,12 @@ namespace Assignment4_AbstractPlanets
 {
     interface IHasMoons
     {
+        bool HasMoons
+        {
+            get
+            {
 
+            }
+        }
     }
 }
